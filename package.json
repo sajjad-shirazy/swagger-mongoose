@@ -1,41 +1,103 @@
 {
-  "name": "swagger-mongoose",
-  "version": "1.1.2",
-  "description": "Generate mongoose schemas and models from swagger documents",
-  "main": "./lib/index.js",
-  "directories": {
-    "test": "test"
+  "_args": [
+    [
+      {
+        "raw": "swagger-mongoose@^1.1.2",
+        "scope": null,
+        "escapedName": "swagger-mongoose",
+        "name": "swagger-mongoose",
+        "rawSpec": "^1.1.2",
+        "spec": ">=1.1.2 <2.0.0",
+        "type": "range"
+      },
+      "F:\\PCD 2.0\\pcd-backend"
+    ]
+  ],
+  "_from": "swagger-mongoose@>=1.1.2 <2.0.0",
+  "_id": "swagger-mongoose@1.1.2",
+  "_inCache": true,
+  "_location": "/swagger-mongoose",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/swagger-mongoose-1.1.2.tgz_1473956854363_0.19144699652679265"
+  },
+  "_npmUser": {
+    "name": "simonguest",
+    "email": "me@simonguest.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "swagger-mongoose@^1.1.2",
+    "scope": null,
+    "escapedName": "swagger-mongoose",
+    "name": "swagger-mongoose",
+    "rawSpec": "^1.1.2",
+    "spec": ">=1.1.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/swagger-mongoose/-/swagger-mongoose-1.1.2.tgz",
+  "_shasum": "e5f6f6f72001ce02fe2c80407b18401913ec2805",
+  "_shrinkwrap": null,
+  "_spec": "swagger-mongoose@^1.1.2",
+  "_where": "F:\\PCD 2.0\\pcd-backend",
+  "author": {
+    "name": "Simon Guest",
+    "email": "me@simonguest.com",
+    "url": "http://github.com/simonguest"
+  },
+  "bugs": {
+    "url": "https://github.com/simonguest/swagger-mongoose/issues"
   },
   "dependencies": {
     "lodash": "^4.6.1"
   },
+  "description": "Generate mongoose schemas and models from swagger documents",
   "devDependencies": {
-    "async": "^2.0.0",
+    "async": "^2.0.0-rc.1",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
-    "mockgoose": "^7.0.0",
-    "mongoose": "^4.8.6"
+    "mockgoose": "^6.0.0",
+    "mongodb": "^2.1.11",
+    "mongoose": "^4.4.9"
   },
-  "peerDependencies": {
-    "mongoose": "^4.8.6"
+  "directories": {
+    "test": "test"
   },
-  "scripts": {
-    "test": "mocha --timeout 60000"
+  "dist": {
+    "shasum": "e5f6f6f72001ce02fe2c80407b18401913ec2805",
+    "tarball": "https://registry.npmjs.org/swagger-mongoose/-/swagger-mongoose-1.1.2.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/simonguest/swagger-mongoose"
-  },
+  "gitHead": "75a365a97743d0ce6c895b7bdff13e455dfeb6ea",
+  "homepage": "https://github.com/simonguest/swagger-mongoose",
   "keywords": [
     "swagger",
     "mongoose",
     "mongo",
     "schema"
   ],
-  "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
-  "bugs": {
-    "url": "https://github.com/simonguest/swagger-mongoose/issues"
+  "main": "./lib/index.js",
+  "maintainers": [
+    {
+      "name": "simonguest",
+      "email": "me@simonguest.com"
+    }
+  ],
+  "name": "swagger-mongoose",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonguest/swagger-mongoose.git"
   },
-  "homepage": "https://github.com/simonguest/swagger-mongoose"
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.1.2"
 }
