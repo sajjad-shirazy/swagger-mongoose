@@ -7,7 +7,7 @@ Generate mongoose schemas and models from swagger documents
 
 because the main repo does not maintain recently. some bugs fixed in this branch:
 - Auto validation of references on any save/update using `lackey-mongoose-ref-validator`
-- Documnet Indexes applying bug
+- Bug Fix: Documnet Indexes applying bug
 
 ## Installation
 
