@@ -3,6 +3,18 @@
 
 Generate mongoose schemas and models from swagger documents
 
+## Additional Features
+
+because the main repo does not maintain recently. some bugs fixed in this branch:
+- Auto validation of references on any save/update using `lackey-mongoose-ref-validator`
+- Documnet Indexes applying bug
+
+## Installation
+
+```js
+npm install https://github.com/sajjad-shirazy/swagger-mongoose
+```
+
 ## Usage
 
 Simply pass your swagger document to the compile method, and then dynamically access the underlying mongoose models.
@@ -150,18 +162,6 @@ phone:
     mobile:
       type: string
 ```
-
-## Installation
-
-```js
-npm install https://github.com/sajjad-shirazy/swagger-mongoose
-```
-
-## Fixed Bug
-
-because the main repo does not maintain recently. some bugs fixed in this branch:
-- Documnet Indexes applying bug
-
 ## Limitations
 
 swagger-mongoose supports the following attributes: integer, long, float, double, string, password, boolean, date, dateTime, object, array (including nested schemas). swagger-mongoose also supports relationships between objects in a swagger document (thanks to @buchslava)
