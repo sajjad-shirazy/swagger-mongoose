@@ -159,7 +159,7 @@ npm install swagger-mongoose
 
 ## Fixed Bug
 
-because the main repo does not maintain recently. some bugs fixed in this brach:
+because the main repo does not maintain recently. some bugs fixed in this branch:
 - Documnet Indexes applying bug
 
 ## Limitations
