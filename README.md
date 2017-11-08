@@ -157,6 +157,11 @@ phone:
 npm install swagger-mongoose
 ```
 
+## Fixed Bug
+
+because the main repo does not maintain recently. some bugs fixed in this brach:
+- Documnet Indexes applying bug
+
 ## Limitations
 
 swagger-mongoose supports the following attributes: integer, long, float, double, string, password, boolean, date, dateTime, object, array (including nested schemas). swagger-mongoose also supports relationships between objects in a swagger document (thanks to @buchslava)
