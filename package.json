@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "lackey-mongoose-ref-validator": "0.0.3",
-    "lodash": "^4.6.1"
+    "lodash": "^4.6.1",
+    "mongoose-delete": "^0.4.0"
   },
   "description": "Generate mongoose schemas and models from swagger documents",
   "devDependencies": {
