@@ -154,7 +154,7 @@ phone:
 ## Installation
 
 ```js
-npm install swagger-mongoose
+npm install https://github.com/sajjad-shirazy/swagger-mongoose
 ```
 
 ## Fixed Bug
