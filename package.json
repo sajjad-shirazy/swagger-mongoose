@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "lackey-mongoose-ref-validator": "https://github.com/sajjad-shirazy/mongoose-ref-validator.git",
+    "lackey-mongoose-ref-validator": "git+https://github.com/sajjad-shirazy/mongoose-ref-validator.git",
     "lodash": "^4.6.1",
     "mongoose-delete": "^0.4.0"
   },
