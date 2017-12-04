@@ -9,6 +9,7 @@ because the main repo does not maintain recently. some bugs fixed in this branch
 - Auto validation of references on any save/update using `lackey-mongoose-ref-validator`
 - Soft delete on documents using `mongoose-delete`
 - Bug Fix: Documnet Indexes applying bug
+- supporting nested schemas(https://github.com/sajjad-shirazy/swagger-mongoose/commit/64138dcc022f835c3c12a6a4ac8f4bc52ddcc2e2)
 
 ## Installation
 
